@@ -5,6 +5,6 @@ public class StringConcatenation{
         
         String result = firstString + secondString;
         
-        System.out.println(result);
+        System.out.println("Concatenated String: "+result);
     }
 }

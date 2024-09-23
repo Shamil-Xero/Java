@@ -24,8 +24,8 @@ class SavingsAccount extends BankAccount {
 }
 
 class LoanAccount extends BankAccount {
-    private double interestRate;
-    private int loanTerm;
+    double interestRate;
+    int loanTerm;
 
     public LoanAccount(int accountNumber, double balance, String owner, double interestRate, int loanTerm) {
         super(accountNumber, balance, owner);
